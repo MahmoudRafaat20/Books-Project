@@ -282,6 +282,7 @@ header .area-1 ul li:hover i {
 .main-content span {
     color: rgb(187, 129, 53);
     font-size: 40px;
+     font-style: italic;
 }
 
 .main-content h2 {
@@ -359,7 +360,10 @@ header .area-1 ul li:hover i {
     padding-bottom: 2px;
     font-size: 20px;
 }
-
+.category-text a:hover{
+    letter-spacing: 2px;
+    transition: 0.5s;
+}
 .category:hover .category-text {
     transform: translateY(-15%);
     transition: 1s;
